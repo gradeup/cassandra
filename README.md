@@ -8,6 +8,7 @@ Only cassandra 3.11 is supported currently.
 - Updated cqlsh
 - Disabled vnodes
 - Disabled "waiting for gossip to settle down"
+- Extra libs for gradeup specific customizations
 
 ## Usage
 
@@ -28,6 +29,5 @@ cassandra:
     - 9160:9160
 ```
 
-## Acknowledgments
-
+## Credits
 * [docker-cassandra](https://github.com/spotify/docker-cassandra)
